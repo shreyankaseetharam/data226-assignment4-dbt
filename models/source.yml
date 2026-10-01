@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: raw
+    database: DEMO_DB
+    schema: RAW
+    description: "Schema containing the raw input tables"
+    tables:
+      - name: user_session_channel
+        identifier: user_session_channel
+        description: "Session data containing userId, sessionId, and channel"
+
+      - name: session_timestamp
+        identifier: session_timestamp
+        description: "Session data containing sessionId and timestamp"
