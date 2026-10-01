@@ -1,0 +1,22 @@
+# dbt generated files
+target/
+dbt_packages/
+logs/
+*.log
+
+# Python virtual environments
+dbt_env/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Credentials and secrets
+profiles.yml
+.env
+*.p8
+*.pem
+*.key
+rsa_key*
